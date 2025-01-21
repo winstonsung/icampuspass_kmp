@@ -22,7 +22,7 @@ import icampuspass.composeapp.generated.resources.compose_multiplatform
 
 @Preview
 @Composable
-fun MainContent() {
+fun App() {
     MaterialTheme {
         var showContent by remember { mutableStateOf(false) }
 
